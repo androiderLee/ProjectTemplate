@@ -1,0 +1,6 @@
+BaseActivity：根据所有Activity抽取而成的顶层Activity，如果没有用到下拉刷新，那么直接继承该类即可；
+ABasePtrListActivity：根据所有有下拉刷新效果的Activity抽取而成的Activity，如果有下拉刷新效果，那么直接继承该类即可，集成的是ultra-pull-to-refresh下拉框架；
+BaseFragment：Fragment的抽取类；
+ABasePtrListActivity：带下拉刷新的Fragment的抽取类；
+CommonAdapter：BaseAdapter的抽取类
+ViewHolder：ViewHolder缓存类
